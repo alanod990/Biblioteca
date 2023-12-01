@@ -1,3 +1,4 @@
+public class App {
 Livro livro1 = new Livro("Java Programming", "John Doe");
 Livro livro2 = new Livro("Data Structures", "Jane Smith");
 
@@ -23,3 +24,4 @@ AvaliacaoLivro avaliacao = new AvaliacaoLivro(livro1, usuario1, 4);
 avaliacao.realizarAvaliacao();
 
 avaliacao.exibirAvaliacao();
+}
